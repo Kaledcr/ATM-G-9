@@ -1,7 +1,52 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Kaled\\Documents\\ATM\\ATM G-9\\ATM G-9\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7985EFC8-C148-1D73-68B3-D64E9ABA589B}|ATM G-9\\ATM G-9.csproj|c:\\users\\kaled\\documents\\atm\\atm g-9\\atm g-9\\atm g-9\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7985EFC8-C148-1D73-68B3-D64E9ABA589B}|ATM G-9\\ATM G-9.csproj|solutionrelative:atm g-9\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7985EFC8-C148-1D73-68B3-D64E9ABA589B}|ATM G-9\\ATM G-9.csproj|c:\\users\\kaled\\documents\\atm\\atm g-9\\atm g-9\\atm g-9\\views\\atm\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7985EFC8-C148-1D73-68B3-D64E9ABA589B}|ATM G-9\\ATM G-9.csproj|solutionrelative:atm g-9\\views\\atm\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7985EFC8-C148-1D73-68B3-D64E9ABA589B}|ATM G-9\\ATM G-9.csproj|c:\\users\\kaled\\documents\\atm\\atm g-9\\atm g-9\\atm g-9\\controllers\\atmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7985EFC8-C148-1D73-68B3-D64E9ABA589B}|ATM G-9\\ATM G-9.csproj|solutionrelative:atm g-9\\controllers\\atmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7985EFC8-C148-1D73-68B3-D64E9ABA589B}|ATM G-9\\ATM G-9.csproj|c:\\users\\kaled\\documents\\atm\\atm g-9\\atm g-9\\atm g-9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7985EFC8-C148-1D73-68B3-D64E9ABA589B}|ATM G-9\\ATM G-9.csproj|solutionrelative:atm g-9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7985EFC8-C148-1D73-68B3-D64E9ABA589B}|ATM G-9\\ATM G-9.csproj|c:\\users\\kaled\\documents\\atm\\atm g-9\\atm g-9\\atm g-9\\services\\serviceatm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7985EFC8-C148-1D73-68B3-D64E9ABA589B}|ATM G-9\\ATM G-9.csproj|solutionrelative:atm g-9\\services\\serviceatm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7985EFC8-C148-1D73-68B3-D64E9ABA589B}|ATM G-9\\ATM G-9.csproj|c:\\users\\kaled\\documents\\atm\\atm g-9\\atm g-9\\atm g-9\\models\\atm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7985EFC8-C148-1D73-68B3-D64E9ABA589B}|ATM G-9\\ATM G-9.csproj|solutionrelative:atm g-9\\models\\atm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7985EFC8-C148-1D73-68B3-D64E9ABA589B}|ATM G-9\\ATM G-9.csproj|c:\\users\\kaled\\documents\\atm\\atm g-9\\atm g-9\\atm g-9\\models\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7985EFC8-C148-1D73-68B3-D64E9ABA589B}|ATM G-9\\ATM G-9.csproj|solutionrelative:atm g-9\\models\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7985EFC8-C148-1D73-68B3-D64E9ABA589B}|ATM G-9\\ATM G-9.csproj|c:\\users\\kaled\\documents\\atm\\atm g-9\\atm g-9\\atm g-9\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7985EFC8-C148-1D73-68B3-D64E9ABA589B}|ATM G-9\\ATM G-9.csproj|solutionrelative:atm g-9\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7985EFC8-C148-1D73-68B3-D64E9ABA589B}|ATM G-9\\ATM G-9.csproj|c:\\users\\kaled\\documents\\atm\\atm g-9\\atm g-9\\atm g-9\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7985EFC8-C148-1D73-68B3-D64E9ABA589B}|ATM G-9\\ATM G-9.csproj|solutionrelative:atm g-9\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7985EFC8-C148-1D73-68B3-D64E9ABA589B}|ATM G-9\\ATM G-9.csproj|c:\\users\\kaled\\documents\\atm\\atm g-9\\atm g-9\\atm g-9\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7985EFC8-C148-1D73-68B3-D64E9ABA589B}|ATM G-9\\ATM G-9.csproj|solutionrelative:atm g-9\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7985EFC8-C148-1D73-68B3-D64E9ABA589B}|ATM G-9\\ATM G-9.csproj|c:\\users\\kaled\\documents\\atm\\atm g-9\\atm g-9\\atm g-9\\atm g-9.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7985EFC8-C148-1D73-68B3-D64E9ABA589B}|ATM G-9\\ATM G-9.csproj|solutionrelative:atm g-9\\atm g-9.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +67,149 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kaled\\Documents\\ATM\\ATM G-9\\ATM G-9\\ATM G-9\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ATM G-9\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Kaled\\Documents\\ATM\\ATM G-9\\ATM G-9\\ATM G-9\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ATM G-9\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-16T23:48:40.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Kaled\\Documents\\ATM\\ATM G-9\\ATM G-9\\ATM G-9\\Program.cs",
+              "RelativeDocumentMoniker": "ATM G-9\\Program.cs",
+              "ToolTip": "C:\\Users\\Kaled\\Documents\\ATM\\ATM G-9\\ATM G-9\\ATM G-9\\Program.cs",
+              "RelativeToolTip": "ATM G-9\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T23:47:16.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServiceATM.cs",
+              "DocumentMoniker": "C:\\Users\\Kaled\\Documents\\ATM\\ATM G-9\\ATM G-9\\ATM G-9\\Services\\ServiceATM.cs",
+              "RelativeDocumentMoniker": "ATM G-9\\Services\\ServiceATM.cs",
+              "ToolTip": "C:\\Users\\Kaled\\Documents\\ATM\\ATM G-9\\ATM G-9\\ATM G-9\\Services\\ServiceATM.cs",
+              "RelativeToolTip": "ATM G-9\\Services\\ServiceATM.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAmwFYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T05:05:30.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Atm.cs",
+              "DocumentMoniker": "C:\\Users\\Kaled\\Documents\\ATM\\ATM G-9\\ATM G-9\\ATM G-9\\Models\\Atm.cs",
+              "RelativeDocumentMoniker": "ATM G-9\\Models\\Atm.cs",
+              "ToolTip": "C:\\Users\\Kaled\\Documents\\ATM\\ATM G-9\\ATM G-9\\ATM G-9\\Models\\Atm.cs",
+              "RelativeToolTip": "ATM G-9\\Models\\Atm.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwD4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T05:02:16.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kaled\\Documents\\ATM\\ATM G-9\\ATM G-9\\ATM G-9\\Views\\ATM\\Index.cshtml",
+              "RelativeDocumentMoniker": "ATM G-9\\Views\\ATM\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kaled\\Documents\\ATM\\ATM G-9\\ATM G-9\\ATM G-9\\Views\\ATM\\Index.cshtml",
+              "RelativeToolTip": "ATM G-9\\Views\\ATM\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-16T05:07:10.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ATMController.cs",
+              "DocumentMoniker": "C:\\Users\\Kaled\\Documents\\ATM\\ATM G-9\\ATM G-9\\ATM G-9\\Controllers\\ATMController.cs",
+              "RelativeDocumentMoniker": "ATM G-9\\Controllers\\ATMController.cs",
+              "ToolTip": "C:\\Users\\Kaled\\Documents\\ATM\\ATM G-9\\ATM G-9\\ATM G-9\\Controllers\\ATMController.cs",
+              "RelativeToolTip": "ATM G-9\\Controllers\\ATMController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAmwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T05:06:56.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServiceResult.cs",
+              "DocumentMoniker": "C:\\Users\\Kaled\\Documents\\ATM\\ATM G-9\\ATM G-9\\ATM G-9\\Models\\ServiceResult.cs",
+              "RelativeDocumentMoniker": "ATM G-9\\Models\\ServiceResult.cs",
+              "ToolTip": "C:\\Users\\Kaled\\Documents\\ATM\\ATM G-9\\ATM G-9\\ATM G-9\\Models\\ServiceResult.cs",
+              "RelativeToolTip": "ATM G-9\\Models\\ServiceResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T09:15:06.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Transaccion.cs",
+              "DocumentMoniker": "C:\\Users\\Kaled\\Documents\\ATM\\ATM G-9\\ATM G-9\\ATM G-9\\Models\\Transaccion.cs",
+              "RelativeDocumentMoniker": "ATM G-9\\Models\\Transaccion.cs",
+              "ToolTip": "C:\\Users\\Kaled\\Documents\\ATM\\ATM G-9\\ATM G-9\\ATM G-9\\Models\\Transaccion.cs",
+              "RelativeToolTip": "ATM G-9\\Models\\Transaccion.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T04:57:15.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Kaled\\Documents\\ATM\\ATM G-9\\ATM G-9\\ATM G-9\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ATM G-9\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Kaled\\Documents\\ATM\\ATM G-9\\ATM G-9\\ATM G-9\\Models\\User.cs",
+              "RelativeToolTip": "ATM G-9\\Models\\User.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgwBIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T04:45:49.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\Kaled\\Documents\\ATM\\ATM G-9\\ATM G-9\\ATM G-9\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "ATM G-9\\Models\\Account.cs",
+              "ToolTip": "C:\\Users\\Kaled\\Documents\\ATM\\ATM G-9\\ATM G-9\\ATM G-9\\Models\\Account.cs",
+              "RelativeToolTip": "ATM G-9\\Models\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T05:47:25.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ATM G-9",
+              "DocumentMoniker": "C:\\Users\\Kaled\\Documents\\ATM\\ATM G-9\\ATM G-9\\ATM G-9\\ATM G-9.csproj",
+              "RelativeDocumentMoniker": "ATM G-9\\ATM G-9.csproj",
+              "ToolTip": "C:\\Users\\Kaled\\Documents\\ATM\\ATM G-9\\ATM G-9\\ATM G-9\\ATM G-9.csproj",
+              "RelativeToolTip": "ATM G-9\\ATM G-9.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-16T04:22:07.428Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,0 +1,9 @@
+C:\Users\Kaled\Documents\ATM\ATM G-9\ATM G-9\ATM G-9\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Kaled\Documents\ATM\ATM G-9\ATM G-9\ATM G-9\obj\Debug\net10.0\ATM G-9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kaled\Documents\ATM\ATM G-9\ATM G-9\ATM G-9\obj\Debug\net10.0\ATM G-9.AssemblyInfoInputs.cache
+C:\Users\Kaled\Documents\ATM\ATM G-9\ATM G-9\ATM G-9\obj\Debug\net10.0\ATM G-9.AssemblyInfo.cs
+C:\Users\Kaled\Documents\ATM\ATM G-9\ATM G-9\ATM G-9\obj\Debug\net10.0\ATM G-9.csproj.CoreCompileInputs.cache
+C:\Users\Kaled\Documents\ATM\ATM G-9\ATM G-9\ATM G-9\obj\Debug\net10.0\ATM G-9.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Kaled\Documents\ATM\ATM G-9\ATM G-9\ATM G-9\obj\Debug\net10.0\ATM G-9.RazorAssemblyInfo.cache
+C:\Users\Kaled\Documents\ATM\ATM G-9\ATM G-9\ATM G-9\obj\Debug\net10.0\ATM G-9.RazorAssemblyInfo.cs
+C:\Users\Kaled\Documents\ATM\ATM G-9\ATM G-9\ATM G-9\obj\Debug\net10.0\ATM G-9.sourcelink.json

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ATM G-9")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e50a9e584768684a7485c075b7a7127e425f00ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12e8e4f82a017438d65122fa6df0b81c1b0e0b5a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ATM G-9")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ATM G-9")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

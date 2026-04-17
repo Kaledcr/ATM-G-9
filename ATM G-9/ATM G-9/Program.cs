@@ -1,7 +1,11 @@
+using ATM_G_9.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddSingleton<Atm>();
 
 var app = builder.Build();
 
