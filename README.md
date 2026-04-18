@@ -32,3 +32,5 @@ Aplicada en `ServiceATM.cs`. Cada método define una secuencia explícita y nume
 ```
  
 La clase es `static`, no mantiene estado propio y actúa como coordinadora del flujo de operaciones.
+
+# Actualización realizada por Teresa
