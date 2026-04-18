@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Iniciar Sesión";
+}
+
+<div class="atm-container">
+    <div class="atm-card">
+        <h2><i class="fa-solid fa-building-columns"> Cajero Automático</h2>
+        <h4>Iniciar Sesión</h4>
+
+        @* Muestra el error si hubo uno *@
+        @if (ViewBag.Error != null)
+        {
+            <div class="alert alert-danger">
+                @ViewBag.Error
+            </div>
+        }
+
+        <form method="post" asp-action="Login">
+            <div class="form-group">
+                <label>Nombre de usuario</label>
+                <input type="text" name="name" class="form-control" required />
+            </div>
+
+            <div class="form-group">
+                <label>PIN</label>
+                @* type="password" oculta los caracteres *@
+                <input type="password" name="pin" class="form-control"
+                       maxlength="4" required />
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">
+                Ingresar
+            </button>
+        </form>
+    </div>
+</div>

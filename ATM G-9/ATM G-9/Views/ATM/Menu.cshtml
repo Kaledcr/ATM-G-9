@@ -1,0 +1,68 @@
+﻿@{
+    ViewData["Title"] = "Menú Principal";
+}
+
+<div class="atm-container">
+    <div class="atm-card">
+
+        <h4>Bienvenido, @ViewBag.UserName <i class="fa-solid fa-user"></h4>
+
+        @* Muestra mensaje de resultado si viene de una operación *@
+        @if (ViewBag.Message != null)
+        {
+            string alertType = ViewBag.Success == true ? "alert-success" : "alert-danger";
+            <div class="alert @alertType">
+                @ViewBag.Message
+            </div>
+        }
+
+        <h5>¿Qué desea hacer?</h5>
+
+        <div class="menu-options">
+
+            @* Retiro — formulario directo en el menú *@
+            <div class="menu-section">
+                <h6>Retirar dinero</h6>
+                <form method="post" action="/ATM/Withdraw">
+                    <div class="input-group">
+                        <span class="input-group-text">₡</span>
+                        <input type="number" name="amount" class="form-control"
+                               placeholder="Monto" min="1000" step="1000" required />
+                        <button type="submit" class="btn btn-danger">Retirar</button>
+                    </div>
+                </form>
+            </div>
+
+            @* Depósito — formulario directo en el menú *@
+            <div class="menu-section">
+                <h6>Depositar dinero</h6>
+                <form method="post" action="/ATM/Deposit">
+                    <div class="input-group">
+                        <span class="input-group-text">₡</span>
+                        <input type="number" name="amount" class="form-control"
+                               placeholder="Monto" min="1" required />
+                        <button type="submit" class="btn btn-success">Depositar</button>
+                    </div>
+                </form>
+            </div>
+
+            @* Botones de navegación *@
+            <div class="menu-buttons">
+                <a href="/ATM/CheckBalance" class="btn btn-info">
+                    <i class="fa-solid fa-wallet"></i>Consultar Saldo
+                </a>
+                <a href="/ATM/History" class="btn btn-secondary">
+                    <i class="fa-solid fa-clock-rotate-left"> Ver Historial
+                </a>
+            </div>
+
+            @* Cerrar sesión *@
+            <form method="post" action="/ATM/Logout">
+                <button type="submit" class="btn btn-outline-danger btn-block">
+                        <i class="fa-solid fa-right-from-bracket"></i> Cerrar Sesión
+                </button>
+            </form>
+
+        </div>
+    </div>
+</div>

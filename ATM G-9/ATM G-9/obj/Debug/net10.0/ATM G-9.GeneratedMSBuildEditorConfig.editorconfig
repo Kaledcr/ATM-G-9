@@ -22,12 +22,20 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Kaled/Documents/ATM/ATM G-9/ATM G-9/ATM G-9/Views/ATM/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVRNXEluZGV4LmNzaHRtbA==
+[C:/Users/Kaled/Documents/ATM/ATM G-9/ATM G-9/ATM G-9/Views/ATM/CheckBalance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVRNXENoZWNrQmFsYW5jZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kaled/Documents/ATM/ATM G-9/ATM G-9/ATM G-9/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[C:/Users/Kaled/Documents/ATM/ATM G-9/ATM G-9/ATM G-9/Views/ATM/History.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVRNXEhpc3RvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kaled/Documents/ATM/ATM G-9/ATM G-9/ATM G-9/Views/ATM/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVRNXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kaled/Documents/ATM/ATM G-9/ATM G-9/ATM G-9/Views/ATM/Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVRNXE1lbnUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Kaled/Documents/ATM/ATM G-9/ATM G-9/ATM G-9/Views/Shared/_ValidationScriptsPartial.cshtml]

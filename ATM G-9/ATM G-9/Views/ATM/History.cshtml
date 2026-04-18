@@ -1,0 +1,51 @@
+﻿@model List<Transaccion>
+
+@{
+    ViewData["Title"] = "Historial";
+}
+
+<div class="atm-container">
+    <div class="atm-card">
+        <h4>📋 Historial de Transacciones</h4>
+
+        @if (ViewBag.Success == false)
+        {
+            <div class="alert alert-warning">
+                @ViewBag.Message
+            </div>
+        }
+        else
+        {
+            <p class="text-muted">@ViewBag.Message</p>
+
+            <table class="table table-striped">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Tipo</th>
+                        <th>Monto</th>
+                        <th>Fecha</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var t in Model)
+                    {
+                        @* Colorea la fila según el tipo de transacción *@
+                        string rowClass = t.Type == Transaccion.transactionType.deposit
+                                          ? "table-success" : "table-danger";
+                        string icon = t.Type == Transaccion.transactionType.deposit
+                                      ? "⬆️ Depósito" : "⬇️ Retiro";
+                        <tr class="@rowClass">
+                            <td>@icon</td>
+                            <td>₡@t._amount.ToString("N2")</td>
+                            <td>@t.date.ToString("dd/MM/yyyy HH:mm")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+
+        <a href="/ATM/Menu" class="btn btn-primary">
+            ← Volver al Menú
+        </a>
+    </div>
+</div>
