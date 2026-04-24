@@ -38,8 +38,8 @@
 
             _registeredUsers = new List<User>
             {
-                new User("Darian González", "1234", 150000),
-                new User("Teresa Pineda",   "5678", 80000)
+                new User("Darian González", "1234",  new CheckingAccount(150000)),
+                new User("Teresa Pineda",   "5678", new SavingsAccount(80000))
             };
         }
 
@@ -115,7 +115,7 @@
             if (!HasActiveSession())
                 return "No hay session activa";
 
-            return _currentUser.bankAccount.withdraw(amount);
+            return _currentUser.bankAccount.Withdraw(amount);
 
         }
 

@@ -16,11 +16,11 @@
 
         public Account bankAccount { get; set; }
 
-        public  User(string name, string PIN, decimal initialBalance)
+        public  User(string name, string PIN, Account account)
         {
             this.Name = name;
             this.PIN = PIN;
-            this.bankAccount = new Account(initialBalance);
+            this.bankAccount = account;
         }
 
         /// <summary>

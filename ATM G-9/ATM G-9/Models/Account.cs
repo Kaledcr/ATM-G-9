@@ -8,7 +8,7 @@ namespace ATM_G_9.Models
     /// <para>En este se encapsula el estado financiero del usuario y expone operaciones controladas sobre ese estado.
     /// El saldo no puedo ser modificado desde fuera solo atravez de metodos.</para>
     /// </summary>
-    public class Account
+    public abstract class Account
     {
         /// <summary>
         /// Aqui definimo los atributos que tendra una cuenta, como es el numero de cuenta generado automaticamente al crearse,
@@ -16,8 +16,9 @@ namespace ATM_G_9.Models
         /// </summary>
         string AccountNumber { get; set; }
 
-        private decimal Balance { get; set; }
-        public List<Transaccion> bankingHistory { get; private set; }
+        public decimal Balance { get; protected set; }
+        public decimal dailyLimit { get; protected set; }
+        public List<Transaccion> bankingHistory { get; protected set; }
 
         public Account(decimal balance)
         {
@@ -48,19 +49,8 @@ namespace ATM_G_9.Models
         /// <param name="monto">Monto a retirar</param>
         /// <returns>Mensaje indicando el resultado de la operacion</returns>
 
-        public string withdraw(decimal monto)
-        {
-            if (monto <= 0)
-                return "El monto debe ser mayor a cero.";
-
-            if (monto > Balance)
-                return "Saldo insuficiented";
-
-            Balance -= monto;
-            bankingHistory.Add(new Transaccion(Transaccion.transactionType.withdraw, monto));
-
-            return $"Retiro exitoso.";
-        }
+        public abstract string Withdraw(decimal monto);
+       
         /// <summary>
         /// Retorna el saldo actual de la cuenta sin modificarlo
         /// </summary>
@@ -69,5 +59,7 @@ namespace ATM_G_9.Models
         {
             return Balance;
         }
+
+        public abstract decimal GetDailyLimit();
     }
 }
