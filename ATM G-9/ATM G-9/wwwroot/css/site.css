@@ -304,25 +304,50 @@ h6 {
 }
 
     .table thead th {
-        font-size: 0.72rem;
+        font-size: 0.7rem;
         font-weight: 500;
         text-transform: uppercase;
-        letter-spacing: 0.07em;
+        letter-spacing: 0.08em;
         color: var(--text-3);
-        padding: 0 0 10px 0;
+        padding: 0 16px 12px 0;
         border-bottom: 1px solid var(--border);
         text-align: left;
     }
 
     .table tbody td {
-        padding: 11px 0;
+        padding: 13px 16px 13px 0;
         border-bottom: 1px solid var(--border);
         color: var(--text-1);
+        vertical-align: middle;
     }
 
     .table tbody tr:last-child td {
         border-bottom: none;
     }
+
+    .table tbody tr:hover td {
+        background: var(--bg);
+    }
+
+.transaction-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 4px 10px;
+    border-radius: 20px;
+}
+
+.badge-deposit {
+    background: #f0faf4;
+    color: #1a7a4a;
+}
+
+.badge-withdraw {
+    background: #fdf4f3;
+    color: #c0392b;
+}
 
 .table-success,
 .table-danger {

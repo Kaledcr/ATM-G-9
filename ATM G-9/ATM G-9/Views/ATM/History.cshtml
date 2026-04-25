@@ -6,7 +6,7 @@
 
 <div class="atm-container">
     <div class="atm-card">
-        <h4>📋 Historial de Transacciones</h4>
+        <h4> Historial de Transacciones</h4>
 
         @if (ViewBag.Success == false)
         {
@@ -16,10 +16,8 @@
         }
         else
         {
-            <p class="text-muted">@ViewBag.Message</p>
-
-            <table class="table table-striped">
-                <thead class="table-dark">
+            <table class="table">
+                <thead>
                     <tr>
                         <th>Tipo</th>
                         <th>Monto</th>
@@ -29,15 +27,22 @@
                 <tbody>
                     @foreach (var t in Model)
                     {
-                        @* Colorea la fila según el tipo de transacción *@
-                        string rowClass = t.Type == Transaccion.transactionType.deposit
-                                          ? "table-success" : "table-danger";
-                        string icon = t.Type == Transaccion.transactionType.deposit
-                                      ? "⬆️ Depósito" : "⬇️ Retiro";
-                        <tr class="@rowClass">
-                            <td>@icon</td>
+                        bool isDeposit = t.Type == Transaccion.transactionType.deposit;
+
+                        string badgeClass = isDeposit ? "badge-deposit" : "badge-withdraw";
+                        string icon = isDeposit ? "↑" : "↓";
+                        string label = isDeposit ? "Depósito" : "Retiro";
+
+                        <tr>
+                            <td>
+                                <span class="transaction-badge @badgeClass">
+                                    @icon @label
+                                </span>
+                            </td>
                             <td>₡@t._amount.ToString("N2")</td>
-                            <td>@t.date.ToString("dd/MM/yyyy HH:mm")</td>
+                            <td style="color: var(--text-3); font-size: 0.82rem;">
+                                @t.date.ToString("dd/MM/yyyy HH:mm")
+                            </td>
                         </tr>
                     }
                 </tbody>

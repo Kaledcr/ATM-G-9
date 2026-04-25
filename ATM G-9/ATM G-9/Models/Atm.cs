@@ -38,8 +38,8 @@
 
             _registeredUsers = new List<User>
             {
-                new User("Darian González", "1234",  new CheckingAccount(150000)),
-                new User("Teresa Pineda",   "5678", new SavingsAccount(80000))
+                new User("Darian", "1234",  new CheckingAccount(150000)),
+                new User("Teresa",   "5678", new SavingsAccount(80000))
             };
         }
 

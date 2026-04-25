@@ -10,9 +10,14 @@
 
         public override string Withdraw(decimal monto)
         {
+            decimal verificarLimite = dailyLimit + monto;
+
             if (dailyLimit == GetDailyLimit())
                 return "Alcanzaste el limite diario de retiro";
- 
+            if(verificarLimite > GetDailyLimit())
+                return "No puedes realizar este retiro, ya que sobrepasas el limite diario";
+
+
             if (monto <= 0)
                 return "El monto debe ser mayor a cero.";
 
